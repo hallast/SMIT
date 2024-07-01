@@ -1,4 +1,5 @@
 # testcafe-cucumber suitsutestid IMDB.com jaoks
+# testcafe-cucumber testid SMITi karjäärilehe jaoks
 
 Testcafe ja Cucumberjs raamistikuga loodud kasutajaliidese testid harjutamiseks.\
 \
@@ -16,7 +17,7 @@ Sul peab arvutis olema node https://nodejs.org/en/download/ (versioon 14.x.x) ja
 5. Käivita Chromes testimiseks: `npm run prio1` või `npm run prio2` 
 6. Käivita IE's testimiseks: `npm run test:ie`
 7. SMIT'i kajäärilehe testimiseks: `npm run smit` 
-   (lingile klikkimine ebaõnnestub, kuna Testcafe ei ole võimaline elemendini kerima. Testi jooksmise ajal käsitsi elemendini kerides test pass'ib.)
+   (lingile klikkimine ebaõnnestub, kuna Testcafe ei ole võimeline elemendini kerima. Testi jooksmise ajal käsitsi elemendini kerides test pass'ib.)
 
 ### Ülesanded
 
