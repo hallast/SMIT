@@ -18,6 +18,8 @@ Feature: smoke tests for Imdb top 250 chart
         Given I am on Bing's search page
         When I am typing my search request on Bing
         Then I should see that the first Bing result includes imdb url
+
+   
  
     @mobile 
     Scenario: Mobile test - navigating to the chart using Safari on mobile

@@ -8,12 +8,15 @@ Otsi Testcafe dokumentatsiooni ja uuri kuidas Testcafe toimib\
 Kui hätta jääd, kindlasti küsi 
 
 ### Kuidas jooksutada - käsurealt käivita järgmised käsud
-Sul peab arvutis olema node https://nodejs.org/en/download/ ja Git https://git-scm.com/downloads
+Sul peab arvutis olema node https://nodejs.org/en/download/ (versioon 14.x.x) ja Git https://git-scm.com/downloads
 1. Typescripti laadimiseks  `npm i -g typescript`
 1. Klooni repo
-2. Lae alla sõltuvused `npm i`
-3. Käivita Chromes testimiseks: `npm run prio1` või `npm run prio2` 
-4. Käivita IE's testimiseks: `npm run test:ie`
+3. Juhul, kui sa seal juba ei viibi, siis liigu kausta /testcafe-cucumber-reports
+4. Lae alla sõltuvused `npm i`
+5. Käivita Chromes testimiseks: `npm run prio1` või `npm run prio2` 
+6. Käivita IE's testimiseks: `npm run test:ie`
+7. SMIT'i kajäärilehe testimiseks: `npm run smit` 
+   (lingile klikkimine ebaõnnestub, kuna Testcafe ei ole võimaline elemendini kerima. Testi jooksmise ajal käsitsi elemendini kerides test pass'ib.)
 
 ### Ülesanded
 
